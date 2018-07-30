@@ -12,7 +12,7 @@ Do `Preferences -> User Snippets -> Python` to open `snippets/python.json` file 
   "Print to console": {
     "prefix": "log",
     "body": [
-      "from absl import logging",
+      "import logging",
       "logging.info('---> %s', $1)",
       "$2"
     ],
@@ -21,7 +21,7 @@ Do `Preferences -> User Snippets -> Python` to open `snippets/python.json` file 
   "Pretty print to console": {
     "prefix": "logpretty",
     "body": [
-      "from absl import logging",
+      "import logging",
       "import json",
       "logging.info('---> %s', json.dumps($1, sort_keys=True, indent=2))",
       "$2"
