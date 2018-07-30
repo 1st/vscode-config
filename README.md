@@ -22,7 +22,7 @@ Do `Preferences -> User Snippets -> Python` to open `snippets/python.json` file 
     "prefix": "logpretty",
     "body": [
       "from absl import logging",
-      "from json",
+      "import json",
       "logging.info('---> %s', json.dumps($1, sort_keys=True, indent=2))",
       "$2"
     ],
